@@ -1,4 +1,6 @@
 main:
+  - title: "Collections"
+    url: /collection-archive/  
   - title: "Posts"
     url: /posts/
   - title: "Categories"
@@ -7,5 +9,4 @@ main:
     url: /tags/
   - title: "About"
     url: /about/
-  - title: "Collections"
-    url: /collection-archive/    
+  
