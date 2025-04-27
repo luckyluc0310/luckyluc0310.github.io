@@ -3,8 +3,8 @@ source "https://rubygems.org"
 gem "github-pages", group: :jekyll_plugins
 
 gem "tzinfo-data"
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
-
+#gem "wdm", "~> 0.1.0" if Gem.win_platform? hide this because it breaks it
+#gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin] this line might work tho, test
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-paginate"
